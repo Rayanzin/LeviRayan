@@ -30,8 +30,8 @@ h2{
 }
 
 main{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: space-between;
     & a{
         color: black;
     }
@@ -47,4 +47,9 @@ main{
             margin: 10px 0px;
         }
     }
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
 }
